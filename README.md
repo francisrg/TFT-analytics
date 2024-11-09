@@ -175,7 +175,7 @@ The function `process_matches()` processes the match data by extracting details 
     return matchDF
     ```
 6. Upserting Data into Database:
-- The script connects to a PostgreSQL database and inserts or updates match data using the `upsert()` function from the `pangres` library.
+ The script connects to a PostgreSQL database and inserts or updates match data using the `upsert()` function from the `pangres` library.
     ```python
     from pangres import upsert
     from sqlalchemy import text, create_engine
